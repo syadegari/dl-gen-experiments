@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./img/workflow2.png" alt="" width="500" height="auto"/>
+<img src="./img/workflow2.png" alt="" width="700" height="auto"/>
 </div>
 
 # Introduction
