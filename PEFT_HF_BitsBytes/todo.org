@@ -1,0 +1,44 @@
+* TODO Project: Apply Lightweight Fine-Tuning to a Foundation Model
+
+** TODO Prepare the Foundation Model
+
+*** DONE Load a pretrained HF model [2/2]
+- [X] Includes the relevant imports
+- [X] Loads a pretrained Hugging Face model for sequence classification
+
+*** TODO Load and preprocess a dataset [4/4]
+- [X] Includes the relevant imports
+- [X] Loads a Hugging Face dataset for sequence classification
+- [X] Loads a Hugging Face tokenizer for dataset preprocessing
+- [X] Optionally uses a subset of the dataset to reduce computational resources
+
+*** TODO Evaluate the pretrained model [1/1]
+- [X] Calculates at least one classification metric using the dataset and pretrained model
+
+** TODO Perform Lightweight Fine-Tuning
+
+*** TODO Create a PEFT model [3/3]
+- [X] Includes the relevant imports
+- [X] Initializes a Hugging Face PEFT config
+- [X] Creates a PEFT model using the config
+
+*** TODO Train the PEFT model
+- Trains the model for at least one epoch using the dataset
+
+*** TODO Save the PEFT model [2/2]
+- [X] Saves fine-tuned parameters to a separate directory
+- [X] Ensures the saved weights are in the same home directory as the notebook file
+
+** TODO Perform Inference Using the Fine-Tuned Model
+
+*** TODO Load the saved PEFT model [2/2]
+- [X] Includes the relevant imports
+- [X] Loads the saved PEFT model
+
+*** TODO Evaluate the fine-tuned model [2/2]
+- [X] Repeats the evaluation process using the same metric(s) and dataset
+- [X] Compares the fine-tuned model to the original version
+
+** TODO Suggestions to Make Your Project Stand Out [2/2]
+- [X] Try using the `bitsandbytes` package to apply QLoRA (quantization + LoRA)
+- [X] Try training with different PEFT configurations and compare the results
